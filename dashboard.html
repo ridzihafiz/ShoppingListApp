@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div id="modal">
+      <form id="addlist_form">
+        <h3>Add Item</h3>
+
+        <div class="form_group">
+          <label for="barang">Item</label>
+          <input type="text" id="barang" required />
+        </div>
+
+        <div class="form_group">
+          <label for="harga">Price</label>
+          <input type="number" id="harga" required />
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="modal_bg"></div>
+    </div>
+
+    <main class="container">
+      <h1 class="title">
+        Shopping List <br />
+        Rid Hafiz
+      </h1>
+      <h3 id="subtitle"></h3>
+      <div id="root">
+        <!-- di RENDER dari JS -->
+      </div>
+      <button class="floating_button" id="floating_button">+</button>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
