@@ -132,10 +132,3 @@ function handleEdit(index) {
 
   renderToHtml();
 }
-
-// let replacedItem = items.splice(items.indexOf('RUBY'), 1, 'PYTHON')
-
-// let fruits = ['apple', 'orange', false, 3];
-// fruits.indexOf('orange'); // returns 1
-// fruits.indexOf(3); // returns 3
-// friuts.indexOf(null); // returns -1 (not found)
